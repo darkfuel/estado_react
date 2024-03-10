@@ -2,11 +2,10 @@ import Alert from 'react-bootstrap/Alert'
 
 function MyAlert ({ texto, status }) {
   return (
-    <>
-      <Alert variant={status}>
-        {texto}
-      </Alert>
-    </>
+    <Alert variant={status}>
+      {texto}
+    </Alert>
+
   )
 }
 
